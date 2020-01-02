@@ -1,0 +1,88 @@
+html {
+  scroll-behavior: smooth;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: #7f8688;
+  background: -webkit-gradient(linear, left top, left bottom, from(#7f8688), to(#394042));
+  background: linear-gradient(180deg, #7f8688 0%, #394042 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#7f8688",endColorstr="#394042",GradientType=1);
+  color: white;
+  font-family: 'Montserrat', sans-serif;
+  font-family: 'Merriweather', serif;
+}
+
+h1, h2, h3 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 800;
+  text-transform: uppercase;
+}
+
+hr {
+  border: 4px solid white;
+}
+
+.navbar {
+  font-family: 'Montserrat', sans-serif;
+  text-transform: uppercase;
+  font-weight: 800;
+}
+
+.row {
+  padding: 2vh;
+  margin: 2vh;
+}
+
+button {
+  font-family: 'Montserrat', sans-serif;
+  margin: 2vh 0;
+}
+
+button.btn {
+  font-weight: 800;
+}
+
+button.btn-primary {
+  color: white;
+  background-color: transparent;
+  border-color: white;
+  border: 4px solid white;
+}
+
+button.btn-primary:hover {
+  color: black;
+  background-color: white;
+  border-color: white;
+}
+
+section#header {
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(255, 255, 255, 0)), to(black)), url("/assets/img/header.jpg");
+  background-image: linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, black 100%), url("/assets/img/header.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  min-height: 75vh;
+}
+
+section#header .container-fluid {
+  position: absolute;
+  bottom: 25vh;
+}
+
+@media (max-width: 414px) {
+  section#header .container-fluid {
+    bottom: 15vh;
+  }
+}
+
+section#header span {
+  text-transform: uppercase;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+}
+/*# sourceMappingURL=main.css.map */
