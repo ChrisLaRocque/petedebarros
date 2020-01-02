@@ -62,6 +62,16 @@ button {
   }
 }
 
+section {
+  .container-fluid, .container {
+    .row {
+      @include breakpoint(phone){
+        padding: 2vh 0;
+      }
+    }
+  }
+}
+
 // For scrolling
 .anchor {
   padding-top: 8vh;
@@ -87,6 +97,10 @@ section#header {
     text-transform: uppercase;
     font-family: 'Montserrat', sans-serif;
     font-weight: 600;
+    @include breakpoint(phone){
+      display: inline-block;
+      width: 56%;
+    }
   }
 }
 

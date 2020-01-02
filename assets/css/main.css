@@ -60,6 +60,12 @@ button.btn-primary:hover {
   border-color: white;
 }
 
+@media (max-width: 414px) {
+  section .container-fluid .row, section .container .row {
+    padding: 2vh 0;
+  }
+}
+
 .anchor {
   padding-top: 8vh;
 }
@@ -88,5 +94,12 @@ section#header span {
   text-transform: uppercase;
   font-family: 'Montserrat', sans-serif;
   font-weight: 600;
+}
+
+@media (max-width: 414px) {
+  section#header span {
+    display: inline-block;
+    width: 56%;
+  }
 }
 /*# sourceMappingURL=main.css.map */
