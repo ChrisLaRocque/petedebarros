@@ -1,4 +1,5 @@
 // HTML Loader
+window.onload = (event) => {
 var ids = $(".load").map(function () {
   return $(this).attr("id");
 });
@@ -9,3 +10,4 @@ for (var i = 0; i < ids.length; i++) {
     $("#" + id).replaceWith(data);
   });
 }
+};
